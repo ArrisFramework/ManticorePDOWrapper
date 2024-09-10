@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "php": "^7.4 | 8.*",
         "psr/log": "*",
         "ext-pdo": "*"
     },
@@ -18,8 +19,5 @@
         "psr-4": {
             "Arris\\Toolkit\\SphinxQL\\": [ "src" ]
         }
-    },
-    "require-dev": {
-        "rector/rector": "^1.2"
     }
 }
