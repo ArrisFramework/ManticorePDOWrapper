@@ -1,0 +1,25 @@
+{
+    "name": "karelwintersky/arris.toolkit.sphinxql-pdo-wrapper",
+    "description": "Arris µFramework SphinxQL PDO Wrapper",
+    "keywords": ["arris", "sphinx", "manticore", "manticoresearch", "pdo"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karel Wintersky",
+            "email": "karel.wintersky@yandex.ru"
+        }
+    ],
+    "require": {
+        "psr/log": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arris\\Toolkit\\SphinxQL\\": [ "src" ]
+        }
+    },
+    "require-dev": {
+        "rector/rector": "^1.2"
+    }
+}
